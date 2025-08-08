@@ -1,15 +1,73 @@
-<!DOCTYPE HTML>
+<!doctype html>
 
-<html>
+<html lang>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
 
-<head>
-<title>Hobbies</title>
-</head>
+    <div id="wrapper">
+        <!-- page content goes here -->
 
-<body>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coursework.html">Coursework</a></li>
+                <li>Hobbies</li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
 
-<!-- page content goes here -->
+        <div id="header">
+            <p>My Hobbies</p>
+        </div>
+        <div id="container">
+            <ol>
+                <li>
+                    1. Drumming-In high school I played the snare and tenor drum in the band. Now I am playing a drumset
+                    at church and it is amazing.
 
-</body>
+                    <button id="openNewTabButton">Open Drumming Website</button><br />
 
+                    <script>
+                        // 1. Get the button element using its ID.
+                        const button = document.getElementById("openNewTabButton");
+
+                        // 2. Add an event listener for the 'click' event.
+                        button.addEventListener("click", function () {
+                            // 3. The function to execute when the button is clicked.
+                            window.open("https://en.wikipedia.org/wiki/Marching_percussion", "_blank");
+                        });
+                    </script>
+                </li>
+                <li>
+                    2. Listening to Music-Music has always been a part of me since my parents are musicians. My favorite
+                    genre of music was Hip-Hop now it is Gospel. I will include one my favorite Gospel songs on this
+                    page so you can add it to your playlist. <br />
+                </li>
+                <li>
+                    3. Playing Video Games-In high school I played the snare and tenor drum in the band. Now I am
+                    playing a drumset at church and it is amazing. <br />
+                </li>
+                <li>
+                    4. Watching TV Shows, Movies, and Videos-I watch different things from time to time on streaming
+                    platforms.
+                </li>
+            </ol>
+        </div>
+        <iframe
+            width="320"
+            height="200"
+            src="https://www.youtube.com/embed/ROgitoQp270?si=ZG-Xs3vTgUAq40y7"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        <img src="IMG_0134.JPG" />
+         </div>
+
+        <footer>
+            <strong>&copy; 2025 &bull; Javiell Reeves</strong>
+        </footer>
 </html>
